@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Fontastique';
+    src: url('Fontastique-Fontastique.eot');
+    src: url('Fontastique-Fontastique.eot?#iefix') format('embedded-opentype'),
+        url('Fontastique-Fontastique.woff2') format('woff2'),
+        url('Fontastique-Fontastique.woff') format('woff'),
+        url('Fontastique-Fontastique.ttf') format('truetype'),
+        url('Fontastique-Fontastique.svg#Fontastique-Fontastique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

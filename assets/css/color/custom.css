@@ -1,0 +1,149 @@
+/* Primary */
+
+a:hover, a:focus, 
+.text-primary, 
+.icon-white,
+#messenger-toggle,
+.btn-primary:hover, .btn-primary:focus,
+.icon-primary.icon-hover:hover, .icon-primary.icon-hover:focus {
+	color: #4BC0AF; 
+}
+
+.bg-primary,
+.btn-primary,
+.progress-bar-primary,
+.te-primary:before,
+.icon-circle.icon-primary,
+.nav-vertical > li > a:before,
+.nav-horizontal > li > a:before,
+#messenger-box:before,a
+#messenger-toggle:hover, #messenger-toggle:focus,
+.icon-white.icon-hover:hover, .icon-white.icon-hover:focus,
+.pace .pace-progress:before,
+.label-primary,
+.pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover,
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover,
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover,
+.nav-panels > li.active > a, .nav-panels > li.active > a:focus, .nav-panels > li.active > a:hover,
+#ajax-loader:before,
+.owl-pagination .owl-page.active > span {
+	background-color: #4BC0AF; 
+}
+
+/* Secondary */
+
+.text-secondary,
+.btn-secondary:hover, .btn-secondary:focus,
+.icon-secondary.icon-hover:hover, .icon-secondary.icon-hover:focus {
+	color: #146775; 
+}
+
+.bg-secondary,
+.btn-secondary,
+.icon-circle.icon-secondary,
+.progress-bar-secondary,
+.te-secondary:before {
+	background-color: #146775; 
+}
+
+/* Tertiary */
+
+/* .text-tertiary,
+.btn-tertiary:hover, .btn-tertiary:focus,
+.icon-tertiary.icon-hover:hover, .icon-tertiary.icon-hover:focus {
+	color: #968251; 
+}
+
+.bg-tertiary,
+.btn-tertiary,
+.icon-circle.icon-tertiary,
+.progress-bar-tertiary,
+.te-tertiary:before {
+	background-color: #968251; 
+} */
+.hobbies .icon-circle, a .name, .speciality .text-muted-2x, .speciaity-description, .event-description {
+	-webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+
+.blue, *.blue:hover {
+	background-color: #31499d;
+}
+.green, *.green:hover{
+	background-color: #56b846;
+}
+.yellow, *.yellow:hover{ 
+	background-color: #cc8a2e;
+}
+.red, *.red:hover {
+	background-color: #ec1f2a;
+}
+.purple, *.purple:hover {
+	background-color: purple;
+}
+.orange, *.orange:hover {
+	background-color: orange;
+}
+.blue2, *.blue2:hover {
+	background-color: #0a2f92;
+}
+
+
+
+li.hobbies {
+ 	width: 30%;
+ 	text-align:  center;
+}
+.testimonial a:hover, .testimonial a:focus{
+	color: #146775;
+}
+.speciality:hover .text-muted-2x{
+	color: white;
+}
+.img-circle{
+	text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.speciality:hover .speciaity-description{
+	color: rgba(255,255,255,.9);
+}
+
+.timeline-event:hover .event-description{
+	color: rgba(255,255,255,.9);
+}
+
+
+/* FOR FULL SCREEN PC */
+
+@media only screen and (min-width: 1070px) {
+	.resume-box{
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#start .bg-image{
+		background-size: 579px;
+	    background-position: bottom;
+	    background-position-x: -166px;
+	}
+	#start .text-md{
+		padding-right: 124px;
+	}
+	#start h1 {
+		font-size: 38px;
+	}
+	#start h5{
+		font-size: 14px;
+		margin-top: 7px;
+	}
+	#start a.btn{
+		margin-right: 100px;
+	}
+	#portfolio .nav-pills > li > a {
+		padding: 9px 17px;
+	}
+}

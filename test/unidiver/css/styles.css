@@ -1,0 +1,117 @@
+body{
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+	transition: .5s;
+}
+
+.center{
+	text-align: center;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	display: block;
+}
+h2, h3, h4{
+	font-family: 'Cormorant SC', serif;
+}
+
+a, h5{
+	font-family: 'Roboto', sans-serif;
+}
+
+img.logo{
+	width: 190px;
+	height: auto;
+	cursor: pointer;
+}
+img.product{
+	max-width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+
+img.social{
+	width: 50px;
+	height: auto;
+	cursor: pointer;
+}
+.header{
+	padding-top: 30px;
+}
+.colored svg{
+	width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    display: block;
+    margin-top: 10%;
+}
+.colored .cls-1{
+	fill: #409dc6;
+}
+
+.footer {
+    position: relative;
+    margin-top: 50px;
+}
+
+.s-size text, .m-size text, .l-size text{
+	fill: white;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 200px;
+    position: absolute;
+    cursor: pointer;
+}
+.button:hover .cls-1{
+	fill: black;
+	transition: .5s;
+	cursor: pointer;
+}
+.button .cls-1{
+	transition: .2s;
+}
+
+/* RESPONSIVE */
+
+
+/* SMALL SIZE */
+
+@media (max-width: 768px) {
+  .s-size{
+  	margin-top: 20px;
+  	display: inherit;
+  }
+  .m-size, .l-size{
+  	display: none;
+  }
+}
+
+/* MEDIUM SIZE  */
+@media (min-width: 600px) {
+  .m-size{
+  	display: inherit;
+  }
+  .s-size, .l-size{
+  	display: none;
+  }
+  .middle a {
+    margin-top: 4%;
+  }
+}
+
+/* BIG SIZE */
+
+@media (min-width: 768px) {
+  	.l-size{
+	  	display: inherit;
+	 }
+  	.s-size, .m-size{
+  		display: none;
+  	}
+  	.middle a {
+	    margin-top: 10px;
+	 }
+  	
+}
+

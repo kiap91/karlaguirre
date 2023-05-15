@@ -1,0 +1,190 @@
+/* Large devices  */
+@media (min-width: 1200px) {
+  .fmshown {
+    display: block !important;
+    transform: translateY(0px) !important;
+    -webkit-transform: translateY(0px) !important;
+  }
+}
+
+/* Medium devices */
+@media (min-width: 769px) and (max-width: 1199px) {
+  .screen-item {
+    transform: scale(1);
+  }
+  #navigationWrap .col-lg-3 {
+    text-align: center;
+  }
+  #navigationWrap .menuWrap {
+    display: none;
+  }
+  .leftColTextWrap {
+    margin: 0px 2px 0;
+  }
+  .rightColTextWrap {
+    margin: 0px 0 0 2px;
+  }
+  #followMenu {
+    overflow-y: scroll;
+    transform: translateY(0px) !important;
+    -webkit-transform: translateY(0px) !important;
+    display: none;
+  }
+  #followMenu .mainMenu li {
+    display: block;
+    margin: 30px 0;
+  }
+  #responsiveMenuToggle {
+    display: block;
+  }
+  .fmToggled {
+    display: block !important;
+  }
+  .downloads {
+    bottom: -150px;
+  }
+  .phoneWrap .getappPhone {
+    left: 0px;
+  }
+  .phoneWrap .lines {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .lineBot, .lineTop, .semicircle2, .semicircle1, .leftSemi p, .rightSemi p {
+    display: none;
+  }
+  .iconRightColWrap, .iconLeftColWrap {
+    text-align: center;
+  }
+  .rightColTextWrap, .leftColTextWrap {
+    max-width: 100%;
+    float: none;
+    text-align: center;
+    margin: 10px 0 0;
+  }
+  .iconRightColWrap i, .iconLeftColWrap i {
+    float: none;
+    display: inline-block;
+  }
+  .contactText p {
+    text-align: center;
+    margin: 10px 0;
+  }
+}
+
+/*small devices*/
+@media (max-width: 768px) {
+  .revNaviWrap {
+    height: 47px;
+    margin-bottom: 30px;
+  }
+  .revScrWrap {
+    height: 47px;
+    margin-top: 30px;
+  }
+  .revNaviRight,
+  .revNaviLeft,
+  .revScrLeft,
+  .revScrRight {
+    top: 0;
+    left: 50%;
+    right: auto;
+  }
+  .revNaviLeft,
+  .revScrLeft {
+    margin-left: -60px;
+  }
+  .revNaviRight,
+  .revScrRight {
+    margin-right: -60px;
+  }
+  /*
+	.screen-item {
+	    transform:scale(1);
+	    text-align: center;
+	    margin: 0 60px 0 0;
+	}  
+	.scrButton {
+	    top: 0;
+	}
+*/
+  #navigationWrap .col-lg-3 {
+    text-align: center;
+  }
+  #navigationWrap .menuWrap {
+    display: none;
+  }
+  .lineBot, .lineTop, .semicircle2, .semicircle1, .headerButton {
+    display: none;
+  }
+  .sliderWrap, .slider {
+    height: 400px;
+  }
+  .sliderImg {
+    max-width: 250px;
+  }
+  .iconRightColWrap, .iconLeftColWrap {
+    text-align: center;
+  }
+  .rightColTextWrap, .leftColTextWrap {
+    max-width: 100%;
+    float: none;
+    text-align: center;
+    margin: 10px 0 0;
+  }
+  .iconRightColWrap i, .iconLeftColWrap i {
+    float: none;
+    display: inline-block;
+  }
+  .contactText p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .newsletterInputs input {
+    margin: 10px 0;
+  }
+  .newsletterInputs .formWrap i {
+    top: 23px;
+  }
+  .downloadButton {
+    margin: 10px 0;
+  }
+  #followMenu {
+    overflow-y: scroll;
+    transform: translateY(0px) !important;
+    -webkit-transform: translateY(0px) !important;
+    display: none;
+  }
+  #followMenu .mainMenu li {
+    display: block;
+    margin: 30px 0;
+  }
+  #responsiveMenuToggle {
+    display: block;
+  }
+  .fmToggled {
+    display: block !important;
+  }
+  .version, .features {
+    text-align: center;
+  }
+  .downloads {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+  }
+  .phoneWrap .getappPhone {
+    left: 0px;
+  }
+  .phoneWrap .lines {
+    display: none;
+  }
+  /*
+	.screen-item img {
+	    left:0px;
+	}
+*/
+}

@@ -1,0 +1,106 @@
+/**
+ *
+ * 
+ * 9. SCREENS
+ *
+ * 
+ */
+.screensViewport {
+	overflow: hidden;
+}
+.screensPanel {
+	width: 10000px;
+	position: relative;
+	left: 0;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.screen-item {
+	width: 260px;
+	float: left;
+	margin: 0 30px;
+	transform:scale(0.88);
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	background: url(../img/phone-wireframe.png) no-repeat top center;
+	img {
+    position: relative;
+    left: 50%;
+    top: 78px;
+    margin-left: -109px;
+	}
+	p {
+    margin-top: 180px;
+    font-size: 18px;
+    text-align: center;
+    color: $dark_gray;
+    text-transform: uppercase;
+	}
+}
+.scrButton {
+	width: 46px;
+  border-radius: 50%;
+  color: $gray;
+  font-size: 32px;
+  line-height: 32px;
+  padding: 5px 16px;
+  position: relative;
+  transition: color 0.3s ease 0s, background 0.3s ease 0s, border-color 0.3s ease 0s;
+  -webkit-transition: color 0.3s ease 0s, background 0.3s ease 0s, border-color 0.3s ease 0s;
+  z-index: 5;
+  cursor: pointer;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;    
+  border: 2px solid $gray;
+  &:hover {
+		background: $gray; 
+		color: $highlight_color;
+	}
+}
+.revScrWrap {
+	position: relative;
+}
+.revScrLeft {
+  position: absolute;
+  left: 0;
+  top: -330px;
+}
+.revScrRight {
+  position: absolute;
+  right: 0;
+  top: -330px; 
+}
+.screensPanel-column {
+	position: relative;
+	left: 50%;
+	width: 320px;
+	margin-left: -190px;
+	padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+	.screensPanel-column {
+		position: relative;
+		left: auto;
+		float: left;
+		width: 83.33333333%;
+		margin-left: 7.33333333%;
+	}
+	.screen-item-active {
+		transform:scale(1);
+	}
+}
+@media (min-width: 992px) {
+	.screensPanel-column {
+		width: 66.66666667%;
+		margin-left: 16.66666667%;
+	}
+}
+@media (min-width: 1200px) {
+	.screensPanel-column {
+		width: 83.33333333%;
+		margin-left: 9.33333333%;
+	}
+}
+

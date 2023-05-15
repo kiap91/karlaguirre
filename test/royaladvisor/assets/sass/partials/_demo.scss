@@ -1,0 +1,99 @@
+/**
+ *
+ * 
+ * 10. DEMO
+ *
+ * 
+ */
+#videoContainer{
+	overflow: hidden;
+}
+.videoContainer {
+	position: relative;
+	z-index: 2;
+}
+.girlContainer {
+  z-index: 1
+}
+.girlBg {
+  height: 600px;
+  background: url('../img/demo/girl.png') top left no-repeat;
+  position: absolute;
+  right: -15px;
+}
+.demoVideo {
+	text-align: center;
+	i {
+    font-size: 32px;
+    padding: 40px;
+    border: 2px solid $white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+    display: inline-block;  
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+	}
+	a {
+    text-decoration: none;
+    color: $white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    &:hover {
+    	color: $highlight_color;
+    	i {
+		    background: #292a2d;
+			}
+		}
+	}
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+#demoStyle {
+	position: fixed;
+	top: 0px;
+	left: -140px;
+	z-index: 20;
+	padding: 10px;
+	background: #41454a;
+	font-size: 18px;
+	color: $highlight_color;
+	width: 140px;
+	transition: left 0.3s;
+	-webkit-transition: left 0.3s;
+	i {
+    position: absolute;
+    right: -45px;
+    top: 0;
+    padding: 10px;
+    font-size: 30px;
+    background: #41454a;
+    cursor: pointer;
+	}
+	ul {
+    list-style: none;
+    margin: 0;
+    li {
+    	margin: 10px 0;
+    	a {
+		    color: $highlight_color;
+		    text-decoration: underline;
+		    &:hover {
+			    color: $highlight_color;
+				}
+			}
+		}
+	}
+}
+.demoStyleActive {
+	left: 0px !important;
+}
+@media (min-width: 1200px) {
+	.girlContainer {
+	  position: relative;
+	}
+}

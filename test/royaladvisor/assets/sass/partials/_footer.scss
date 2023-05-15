@@ -1,0 +1,39 @@
+/**
+ *
+ * 
+ * 11. FOOTER
+ *
+ * 
+ */
+.footerIcons i {
+  color: $white;
+  font-size: 32px;
+  margin: 0 10px;
+  border: 2px solid #5c6065;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;     
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+  padding: 22px 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  &:hover {
+    color: $gray;
+    border-color: $highlight_color;
+    background: $highlight_color;
+	}
+}
+.copyright {
+	padding-left: 15px;
+	padding-right: 15px;
+	a:hover {
+		color: $highlight_color;
+		text-decoration: underline;
+		font-size: 16px;
+	}
+}
+.pp_close {
+    display: none !important;
+}

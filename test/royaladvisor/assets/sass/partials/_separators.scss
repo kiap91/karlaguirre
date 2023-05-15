@@ -1,0 +1,30 @@
+/**
+ *
+ * 
+ * 5. SEPARATORS
+ *
+ * 
+ */
+.separator20 {
+	height: 20px;
+}
+.separator50 {
+  height: 50px;
+}
+.separator100 {
+	height: 100px;
+}
+.separator200 {
+	height: 200px;
+}
+.alignTextCenter {
+	text-align: center;
+}
+.decoratorTop {
+  position: absolute;
+  top: -50px;
+  width: 100%;
+  height: 50px;
+  display: block;  
+  z-index: 9;
+}
