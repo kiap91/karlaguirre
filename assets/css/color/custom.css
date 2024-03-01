@@ -145,5 +145,6 @@ li.hobbies {
 	}
 	#portfolio .nav-pills > li > a {
 		padding: 9px 17px;
+		margin-bottom: 10px;
 	}
 }
