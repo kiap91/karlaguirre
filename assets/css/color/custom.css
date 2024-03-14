@@ -148,3 +148,41 @@ li.hobbies {
 		margin-bottom: 10px;
 	}
 }
+
+/* RESPONSIVE FOOTER */
+
+@media only screen and (max-width: 468px){
+	.contact-box{
+		margin-left: 0%;
+	}
+	#contact .bg-image{
+		top: -36px;
+		left: -317px;
+		width: 188%;
+		height: 50%;
+
+	}
+	#contact.min-fullheight{
+		min-height: auto;
+	}
+	#contact.padding-v-60{
+		padding-top: 350px;
+		padding-bottom: 0;
+	}
+	#contact h5{
+		text-align: center;
+	}
+	#contact .icon-xs.icon-circle{
+		height: 50px;
+		width: 50px;
+		font-size: 21px;
+	}
+	#contact .list-inline{
+		display: flex;
+		justify-content: center;
+	}
+	#contact .list-inline>li{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
