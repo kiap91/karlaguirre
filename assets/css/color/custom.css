@@ -145,13 +145,16 @@ li.hobbies {
 	}
 	#portfolio .nav-pills > li > a {
 		padding: 9px 17px;
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 	}
 }
 
 /* RESPONSIVE FOOTER */
 
 @media only screen and (max-width: 468px){
+	#freelanceservices .nav-pills>li{
+		margin-bottom: 5px;
+	}
 	.contact-box{
 		margin-left: 0%;
 	}
