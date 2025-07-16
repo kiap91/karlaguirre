@@ -2,7 +2,7 @@
 
 /* WITHOUT ACCESSIBILITY COLORS */
 
-/*  a:hover, a:focus, 
+a:hover, a:focus, 
 .text-primary, 
 .icon-white,
 #messenger-toggle,
@@ -30,12 +30,12 @@
 #ajax-loader:before,
 .owl-pagination .owl-page.active > span {
 	background-color: #4BC0AF; 
-}  */
+}
 
 
 /* ACCESIBILITY COLORS */
 
-a:hover, a:focus, 
+/* a:hover, a:focus, 
 .text-primary, 
 .icon-white,
 #messenger-toggle,
@@ -63,13 +63,13 @@ a:hover, a:focus,
 #ajax-loader:before,
 .owl-pagination .owl-page.active > span {
 	background-color: #1E5750; 
-} 
+}  */
 
 /* Secondary */
 
 /* WITHOUT ACCESIBILITY */
 
-/* .text-secondary,
+.text-secondary,
 .btn-secondary:hover, .btn-secondary:focus,
 .icon-secondary.icon-hover:hover, .icon-secondary.icon-hover:focus {
 	color: #146775; 
@@ -81,11 +81,11 @@ a:hover, a:focus,
 .progress-bar-secondary,
 .te-secondary:before {
 	background-color: #146775; 
-} */
+}
 
 /* ACCESIBILITY COLORS */
 
-.text-secondary,
+/* .text-secondary,
 .btn-secondary:hover, .btn-secondary:focus,
 .icon-secondary.icon-hover:hover, .icon-secondary.icon-hover:focus {
 	color: #D1F2FA; 
@@ -97,7 +97,7 @@ a:hover, a:focus,
 .progress-bar-secondary,
 .te-secondary:before {
 	background-color: #D1F2FA; 
-}
+} */
 
 
 /* Tertiary */
