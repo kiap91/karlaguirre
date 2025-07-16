@@ -201,3 +201,16 @@ li.hobbies {
 #contact .icon-instagram{
 	color: #f00879;
 }*/
+
+
+h6 {
+	color: rgba(0, 0, 0, .6);
+}
+
+.text-muted, .nav-pills>li>a {
+    color: #666;
+}
+
+.dark h6 {
+    color: rgba(255, 255, 255, .8);
+}
