@@ -95,10 +95,13 @@ h1.text-lg,
 }
 
 .btn-secondary,
-.icon-circle.icon-secondary,
 .progress-bar-secondary,
 .te-secondary:before {
 	background-color: #F6FCFE; 
+}
+
+.icon-circle.icon-secondary{
+	background-color: #1b4b46;
 }
 
 
