@@ -61,7 +61,8 @@ a:hover, a:focus,
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover,
 .nav-panels > li.active > a, .nav-panels > li.active > a:focus, .nav-panels > li.active > a:hover,
 #ajax-loader:before,
-.owl-pagination .owl-page.active > span {
+.owl-pagination .owl-page.active > span,
+.bg-secondary {
 	background-color: #2D8077; 
 } 
 
@@ -87,11 +88,11 @@ a:hover, a:focus,
 
 .text-secondary,
 .btn-secondary:hover, .btn-secondary:focus,
-.icon-secondary.icon-hover:hover, .icon-secondary.icon-hover:focus {
+.icon-secondary.icon-hover:hover, .icon-secondary.icon-hover:focus,
+.list-unstyled-icons .inline-icon {
 	color: #F6FCFE; 
 }
 
-.bg-secondary,
 .btn-secondary,
 .icon-circle.icon-secondary,
 .progress-bar-secondary,
