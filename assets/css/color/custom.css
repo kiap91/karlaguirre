@@ -270,6 +270,9 @@ h6 {
     color: #666;
 }
 
-.dark h6 {
-    color: rgba(255, 255, 255, .8);
+.dark h6,
+.speciality:hover .speciaity-description,
+.dark .event-description,
+.dark .text-muted {
+    color: #EBFFFD;
 }
