@@ -41,7 +41,8 @@ h1.text-lg,
 .icon-white,
 #messenger-toggle,
 .btn-primary:hover, .btn-primary:focus,
-.icon-primary.icon-hover:hover, .icon-primary.icon-hover:focus {
+.icon-primary.icon-hover:hover, .icon-primary.icon-hover:focus,
+.progress-bar>span {
 	color: #2D8077; 
 }
 
