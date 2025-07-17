@@ -271,7 +271,7 @@ h6 {
 }
 
 .dark h6,
-.speciality:hover .speciaity-description,
+.dark .speciaity-description,
 .dark .event-description,
 .dark .text-muted {
     color: #EBFFFD;
