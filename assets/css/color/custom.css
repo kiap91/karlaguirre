@@ -90,7 +90,8 @@ h1.text-lg,
 .text-secondary,
 .btn-secondary:hover, .btn-secondary:focus,
 .icon-secondary.icon-hover:hover, .icon-secondary.icon-hover:focus,
-.list-unstyled-icons .inline-icon {
+.list-unstyled-icons .inline-icon,
+.testimonial-author .name:hover{
 	color: #F6FCFE; 
 }
 
