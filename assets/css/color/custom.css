@@ -91,7 +91,7 @@ h1.text-lg,
 .btn-secondary:hover, .btn-secondary:focus,
 .icon-secondary.icon-hover:hover, .icon-secondary.icon-hover:focus,
 .list-unstyled-icons .inline-icon,
-.testimonial-author .name:hover{
+.testimonial-author:hover .name{
 	color: #F6FCFE; 
 }
 
